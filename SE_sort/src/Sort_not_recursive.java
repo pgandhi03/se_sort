@@ -7,6 +7,7 @@ public class Sort_not_recursive {
             for (int j = 0; j < n-i-1; j++)
                 if (ab[j] > ab[j+1])
                 {
+                	
                     int temp = ab[j];
                     ab[j] = ab[j+1];
                     ab[j+1] = temp;
